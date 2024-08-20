@@ -1,0 +1,62 @@
+# 15-character string
+my_string = "HelloWorld12345"
+
+# 1. Length of the string
+length = len(my_string)
+print("Length:", length)  # Output: 15
+
+# 2. Convert to uppercase
+uppercase = my_string.upper()
+print("Uppercase:", uppercase)  # Output: HELLOWORLD12345
+
+# 3. Convert to lowercase
+lowercase = my_string.lower()
+print("Lowercase:", lowercase)  # Output: helloworld12345
+
+# 4. Replace a substring
+replaced_string = my_string.replace("World", "Python")
+print("Replaced String:", replaced_string)  # Output: HelloPython12345
+
+# 5. Slicing the string (first 5 characters)
+sliced_string = my_string[:5]
+print("Sliced String:", sliced_string)  # Output: Hello
+
+# 6. Check if the string ends with '12345'
+ends_with = my_string.endswith("12345")
+print("Ends with '12345':", ends_with)  # Output: True
+
+# 7. Check if the string starts with 'Hello'
+starts_with = my_string.startswith("Hello")
+print("Starts with 'Hello':", starts_with)  # Output: True
+
+# 8. Find the position of 'World'
+position = my_string.find("World")
+print("Position of 'World':", position)  # Output: 5
+
+# 9. Count occurrences of 'l'
+count_l = my_string.count('l')
+print("Count of 'l':", count_l)  # Output: 3
+
+# 10. Split the string into a list
+split_string = my_string.split("World")
+print("Split String:", split_string)  # Output: ['Hello', '12345']
+
+# 11. Concatenate with another string
+concatenated_string = my_string + "_Extra"
+print("Concatenated String:", concatenated_string)  # Output: HelloWorld12345_Extra
+
+# 12. Reverse the string
+reversed_string = my_string[::-1]
+print("Reversed String:", reversed_string)  # Output: 54321dlroWolleH
+
+# 13. Check if the string is alphanumeric
+is_alphanumeric = my_string.isalnum()
+print("Is Alphanumeric:", is_alphanumeric)  # Output: True
+
+# 14. Strip leading and trailing whitespaces (though there are none in this example)
+stripped_string = my_string.strip()
+print("Stripped String:", stripped_string)  # Output: HelloWorld12345
+
+# 15. Capitalize the string
+capitalized_string = my_string.capitalize()
+print("Capitalized String:", capitalized_string)  # Output: Helloworld12345
